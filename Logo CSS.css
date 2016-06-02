@@ -1,0 +1,76 @@
+body {
+	background-color: #ffffb3;
+}
+div {
+	font-weight: 100;
+	font-size: 35px;
+}
+table {
+	border-collapse: collapse;
+	background-color: #d25237;
+	color: #fff;
+}
+td {
+	padding: 0px;
+	line-height: 71%;
+	font-size: 35px;
+}
+.row1 {
+	font-family: "Book Antiqua", Times, Serif;
+	padding: 0;
+	letter-spacing: -4px;
+}
+.row2 {
+	letter-spacing: -1px;
+}
+.and {
+	font-size: 33px;
+}
+.w {
+	font-family: "Book Antiqua", Times, Serif;
+}
+.c {
+	
+}
+.contain {
+	display: table;
+}
+.logo {
+	font-family: "Book Antiqua", Times, Serif;
+	max-width: 57px;
+	background-color: #d25237;
+	display: table-caption;
+	line-height: 71%;
+	letter-spacing: -4px;
+	color: #fff;
+}
+.logo2 {
+	font-family: "Book Antiqua", Times, Serif;
+	max-width: 57px;
+	background-color: #d25237;
+	display: table-cell;
+	line-height: 71%;
+	letter-spacing: -4px;
+	color: #fff;
+}
+.logo3 {
+	max-width: 57px;
+	background-color: #d25237;
+	display: table-cell;
+	line-height: 71%;
+	letter-spacing: -4px;
+	color: #fff;
+}
+.logo4 {
+	font-family: "Book Antiqua", Times, Serif;
+	max-width: 57px;
+	background-color: #d25237;
+	display: table-cell;
+	line-height: 71%;
+	letter-spacing: -2px;
+	color: #fff;
+}
+.text {
+	font-variant: small-caps;
+}
+
