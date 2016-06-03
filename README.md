@@ -1,2 +1,2 @@
-# EE-KP-Clac
-Eden Eternal Knowledge Point Calculator web app
+# HTML/CSS
+Various projects using css and html
