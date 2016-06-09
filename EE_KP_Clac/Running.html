@@ -1,50 +1,56 @@
-<h1>
-	Sample Class
-</h1>
-<div class="button tooltip">
-	Set1
-	<span class="tooltiptext" id="first">
-		description for set1
-	</span>
-</div><count class="space">0</count>
-<div class="button tooltip">
-	Set2
-	<span class="tooltiptext">
-		description for set2
-	</span>
-</div><count>0</count>
-<br>
-<div class="button tooltip">
-	Set3
-	<span class="tooltiptext" id="first">
-		description for set3 more text goes here for longer messages
-	</span>
-</div><count>0</count>
-<div class="button tooltip">
-	Set4
-	<span class="tooltiptext"  id="first">
-		description for set3 more text goes here for longer messages
-	</span>
-</div><count>0</count>
-<br>
-<div class="button tooltip">
-	Set5
-	<span class="tooltiptext" id="first">
-		description for set3 more text goes here for longer messages
-	</span>
-</div><count class="doubleSpace">0</count>
-<div class="button tooltip">
-	Set6
-	<span class="tooltiptext">
-		description for set3 more text goes here for longer messages
-	</span>
-</div><count>0</count>
-<br>
-<ul id="buttonSet">
-	<li>
-		+
-	</li>
-	<li>
-		-
-	</li>
-</ul>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Eden Eternal KP Clac
+		</title>
+	</head>
+	<body>
+		<h1>
+			Sample Class
+		</h1>
+      <div class="title">Current Points:<count class="nontext" id="points">0</count></div>
+		<table>
+			<tr>
+				<td>
+					<div class="button tooltip">
+						Set1
+						<span class="tooltiptext" id="first">
+							description for set1 more text goes here for longer messages
+						</span>
+					</div>
+					<count class="nontext max5" id="cA.1">
+						0
+					</count>
+                   <span class="adder nontext" id="pA.1" onclick="change(this.id)">+</span><span class="adder nontext" id="mA.1" onclick="change(this.id)">-</span>
+				</td>
+              <td>
+                <div class="button tooltip">
+                    Set2
+                  <span class="tooltiptext">
+                      description for set2 more text goes here for longer messages
+                  </span>
+                </div>
+                <count class="nontext">
+					0
+				</count>
+                <span class="adder nontext">+</span><span class="adder nontext">-</span>
+              </td>
+			</tr>
+          <tr>
+            <td>
+              <div class="button tooltip">
+                  Set3
+						<span class="tooltiptext" id="first">
+							description for set3 more text goes here for longer messages
+						</span>
+					</div>
+					<count class="nontext">
+						0
+					</count>
+                   <span class="adder nontext">+</span><span class="adder nontext">-</span>
+            </td>
+          </tr>
+		</table>
+	</body>
+</html>
