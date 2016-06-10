@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+		</script>
 		<title>
 			Eden Eternal KP Clac
 		</title>
@@ -9,7 +11,16 @@
 		<h1>
 			Sample Class
 		</h1>
-      <div class="title">Current Points:<count class="nontext" id="points">0</count></div>
+		<label>
+			Level
+		</label>
+		<input type="text" id="level" maxlength="3" size="1">
+		<div class="title">
+			Current Points:
+			<count class="nontext" id="points">
+				0
+			</count>
+		</div>
 		<table>
 			<tr>
 				<td>
@@ -22,25 +33,35 @@
 					<count class="nontext max5" id="cA.1">
 						0
 					</count>
-                   <span class="adder nontext" id="pA.1" onclick="change(this.id)">+</span><span class="adder nontext" id="mA.1" onclick="change(this.id)">-</span>
+					<span class="adder nontext" id="pA.1" onclick="change(this.id)">
+						+
+					</span>
+					<span class="adder nontext" id="mA.1" onclick="change(this.id)">
+						-
+					</span>
 				</td>
-              <td>
-                <div class="button tooltip">
-                    Set2
-                  <span class="tooltiptext">
-                      description for set2 more text goes here for longer messages
-                  </span>
-                </div>
-                <count class="nontext">
-					0
-				</count>
-                <span class="adder nontext">+</span><span class="adder nontext">-</span>
-              </td>
+				<td>
+					<div class="button tooltip">
+						Set2
+						<span class="tooltiptext">
+							description for set2 more text goes here for longer messages
+						</span>
+					</div>
+					<count class="nontext">
+						0
+					</count>
+					<span class="adder nontext">
+						+
+					</span>
+					<span class="adder nontext">
+						-
+					</span>
+				</td>
 			</tr>
-          <tr>
-            <td>
-              <div class="button tooltip">
-                  Set3
+			<tr>
+				<td>
+					<div class="button tooltip">
+						Set3
 						<span class="tooltiptext" id="first">
 							description for set3 more text goes here for longer messages
 						</span>
@@ -48,9 +69,14 @@
 					<count class="nontext">
 						0
 					</count>
-                   <span class="adder nontext">+</span><span class="adder nontext">-</span>
-            </td>
-          </tr>
+					<span class="adder nontext">
+						+
+					</span>
+					<span class="adder nontext">
+						-
+					</span>
+				</td>
+			</tr>
 		</table>
 	</body>
 </html>
