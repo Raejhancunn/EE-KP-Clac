@@ -6,9 +6,9 @@ div {
 	border-radius: 30px;
 	padding: 0 15px;
 }
-.title {
-	border-radius: 0;
-	padding: 0;
+td{
+  text-align: center;
+  width: 110px;
 }
 /* counter */
 count {
@@ -16,6 +16,10 @@ count {
 	border-style: solid;
 	border-width: 1px;
 	margin: 0;
+}
+.title {
+	border-radius: 0;
+	padding: 0;
 }
 /* Tooltip container */
 .tooltip {
@@ -77,8 +81,8 @@ position: absolute;
 .adder {
 	background: #bfbfbf;
 	font-size: 12px;
-	letter-spacing: 5px;
-	text-align: center;
+	letter-spacing: 3px;
+	/*text-align: center;*/
 	padding: 0;
 	padding-left: 2px;
 }
