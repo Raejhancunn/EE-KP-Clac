@@ -6,9 +6,16 @@ div {
 	border-radius: 30px;
 	padding: 0 15px;
 }
-.title{
-  border-radius: 0;
-  padding: 0;
+.title {
+	border-radius: 0;
+	padding: 0;
+}
+/* counter */
+count {
+	font-size: 11px;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
 }
 /* Tooltip container */
 .tooltip {
@@ -67,30 +74,23 @@ position: absolute;
 	margin-right: 135px;
 }
 /* + and - buttons */
-.adder{
-  background: #bfbfbf;
-  font-size: 12px;
-  letter-spacing: 5px;
-  text-align: center;
-  padding: 0;
-  padding-left: 2px;
+.adder {
+	background: #bfbfbf;
+	font-size: 12px;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 0;
+	padding-left: 2px;
 }
-.adder:hover{
-  background: #999999;
-}
-/* counter */
-count{
-	font-size:11px;
-	border-style: solid;
-	border-width: 1px;
-	margin: 0;
+.adder:hover {
+	background: #999999;
 }
 /* non highlightable text */
-.nontext{
-  -moz-user-select: -moz-none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
+.nontext {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
 }
