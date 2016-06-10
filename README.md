@@ -1,2 +1,2 @@
-# HTML/CSS
-Various projects using css and html
+# Web_Develop
+Various projects using css, html, and javascript
